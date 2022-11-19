@@ -1,0 +1,64 @@
+
+body {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+                  url("../img/143329.jpg");
+    background-repeat: no-repeat, repeat;
+    background-size: 100%;
+}
+header h1 {
+    text-align: center;
+}
+header img {
+    width: 100;
+    height: 300px;
+    opacity: 0.1;
+}
+header div {
+    text-align: center;
+}
+
+nav {
+    width: 100%;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0px 20px;
+}
+
+summary {
+    width: 80%;
+    text-align: justify;
+    align-items: center;
+    margin: 17px 17px;
+    padding: 50px 50px;
+}
+
+main {
+    width: 100%;
+}
+main div {
+    display: inline-block;
+    width: 70%;
+}
+
+main section {
+    width: 80%;
+    text-align: justify;
+}
+
+main aside {
+    width: 15%;
+    height: 500px;
+}
+
+main aside,
+section {
+    display: inline-block;
+    
+}
+
+footer {
+    text-align: center;
+}

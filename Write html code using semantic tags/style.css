@@ -1,0 +1,79 @@
+input{
+    float: right;
+}
+nav{
+    width: 100%;
+    
+
+}
+nav li {
+    display: inline-block;
+    width: 15%;
+    
+}
+nav li a {
+    text-decoration: none;
+}
+
+nav ul {
+    margin: 14px 120px;
+    padding: 10px 59px;
+    text-align: center;
+    position: relative;
+    left: -22px;
+
+}
+main {
+    width: 100%;
+}
+main aside{
+    width: 20%;
+}
+main section{
+    width: 55%;
+    align-items: center;
+}
+main aside, section{
+    display: inline-block;
+}
+
+footer{
+    text-align: justify;
+}
+aside {
+    position: relative;
+    left: -28px;
+    
+}
+#left-sidebar-menu {
+    position: relative;
+    top: -98px;
+}
+#rigt-sidebar-menu{
+    width: 26%;
+    padding: 27px 115px;
+    margin: 10px 102px;
+    position: relative;
+    top:-247px
+}
+main aside ul li a{
+    text-decoration: none;
+}
+aside li {
+    display: block;
+    padding: 9px 0px;
+}
+
+footer{
+    padding: 10px 10px
+}
+section img{
+    display: inline-block;
+    width: 25%;
+    height: 25vh;
+    padding: 10px 10px;
+    margin: 10px 10px;
+}
+main section{
+    text-align: center;
+}
