@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes color-change {
+            /* from {background-color: red}
+            to {
+                background-color: yellow;
+            } */
+            0% {background: url("https://img.freepik.com/free-vector/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971.jpg");}
+            20% {background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLzshd6fBLzXMxFx-3B6XKAFx5R_9WHv0eKI1WxJoQ&s');}
+            40% {background-color: blue;}
+            60% {background-color: pink;}
+            80% {background-color: green;}
+            100% {background-color: gray;}
+        }
+        section {
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            animation-name: color-change;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            /* //animation-delay: 3s; 2s 4s 6w 8s 10s */
+        }
+        .animated-image {
+            animation-name: xyz;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        Keyframe
+    </section>
+    <img class="animated-image"/>
+</body>
+</html>

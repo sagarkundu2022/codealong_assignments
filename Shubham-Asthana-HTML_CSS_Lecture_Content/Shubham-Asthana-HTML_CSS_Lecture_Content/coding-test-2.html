@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post" action="/car-submit">
+        <label for="name">Name<span style="color: red;">*</span></label>
+        <input type="text" id="name" name="name" required/>
+        <label for="email">Email<span>*</span></label>
+        <input type="email" id="email" name="email" required/>
+        <span>Gender</span>
+        <label for="gender">Male<span>*</span></label>
+        
+        <input type="radio" id="gender" name="gender" value="male" required/>
+        <label for="gender">Female<span>*</span></label>
+        <input type="radio" id="gender" name="gender" value="female" required/>
+        <label for="cars">Cars</label>
+        <select name="cars" id="cars">
+            <option value="bmw">BMW</option>
+            <option value="audi">Audi</option>
+            <option value="mercedz">Mercedz</option>
+        </select>
+        <label for="car-age">Car Age<span>*</span></label>
+        <input type="number" id="car-age" name="car-age" required/>
+        <label for="dop">DOP<span>*</span></label>
+        <input type="date" id="dop" name="dop" required/>
+        <label for="password">Password<span>*</span></label>
+        <input type="password" id="password" name="password" required/>
+        <input type="submit">
+    </form>
+</body>
+</html>

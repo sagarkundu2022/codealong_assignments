@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .nav-normal { 
+                border: 1px solid red;
+                height: 400px;
+                text-align: center;
+            }
+            .normal-item {
+                border: 1px solid green;
+                display: inline;
+                margin-right: 10px;
+            }
+            .normal {
+            
+                position: relative;
+                top: 50%;
+            }
+            .flex {
+                display: flex;
+                list-style: none;
+                justify-content: space-between;
+                padding: 0px;
+            }
+            .nav-flex {
+                margin-top: 10px;
+                border: 1px solid gray;
+            }
+            .flex-item {
+                flex-shrink: 0;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <nav class="nav-normal">
+            Normal Navbar
+            <ul class="normal">
+                <li class="normal-item">HOME</li>
+                <li class="normal-item">ABOUT</li>
+                <li class="normal-item">CAREER</li>
+                <li class="normal-item">SERVICES</li>
+                
+            </ul>
+        </nav>
+        <nav class="nav-flex">
+            Navbar with flexbox
+            <ul class="flex">
+                <li class="flex-item">HOME</li>
+                <li class="flex-item">ABOUT</li>
+                <li class="flex-item">CAREER</li>
+                <li class="flex-item">SERVICES</li>
+                <li class="flex-item">Testing-SERVICES</li>
+            </ul>
+        </nav>
+    </body>
+</html>

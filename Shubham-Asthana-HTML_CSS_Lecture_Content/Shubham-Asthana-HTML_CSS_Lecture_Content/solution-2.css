@@ -1,0 +1,114 @@
+.apparel-container {
+    height: 100%;
+    width: 100%;
+    background: transparent linear-gradient(136deg, #FCF3F3 0%, #FFFFFF 49%, #FAF1F0 100%) 0% 0% no-repeat padding-box;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+nav {
+    display: flex;
+    padding-left: 8rem;
+    padding-top: 6rem;
+    padding-right: 8rem;
+    grid-row: 1;
+}
+nav .logo {
+    border: 2px solid #E7A09E;
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    display: inline-block;
+    margin-right: 10px;
+    text-align: center;
+}
+
+nav .logo-text {
+    font-size: 20px;
+    letter-spacing: 6px;
+    width: 50%;
+}
+
+.apparel-nav {
+    grid-column: 1/3;
+}
+
+.apparel-overview {
+    grid-column: 1/3;
+    grid-row: 1;
+    padding-top: 15rem;
+    padding-left: 8rem;
+    font-size: 32px;
+    padding-right: 8rem;
+    
+}
+.overview-primary {
+    letter-spacing: 20px;
+    color: #D2A1A2;
+    font-size: 64px;
+}
+.overview-secondary {
+    letter-spacing: 20px;
+    font-size: 64px;
+}
+
+.overview-description {
+    color: #9A6B69;
+    font-size: 13px;
+    margin-top: 20px;
+}
+.apparel-form {
+    margin-top: 30px;
+    position: relative;
+}
+.apparel-form input {
+    width: 90%;
+    padding: 10px 10px 10px 15px;
+    border: 1px solid #9A6B69;
+    border-radius: 29px;
+    position: absolute;
+}
+
+.apparel-action {
+    height: 37px;
+    width: 60px;
+    position: absolute;
+    border-radius: 29px;
+    right: 0;
+    background: #E7A09E 0% 0% no-repeat padding-box;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+@media only screen and (max-width: 600px) {
+    .apparel-container {
+        grid-template-rows: 5% 50% 5%;
+        grid-template-columns: 1fr;
+    }
+    .apparel-nav {
+        grid-column: 1;
+        padding: 0;
+        grid-row: 1/2;
+    }
+    .apparel-overview {
+        grid-column: 1;
+        padding: 0;
+        grid-row: 3/4;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .apparel-image {
+        grid-row: 2/3;
+        margin-top: 20px;
+    }
+    .apparel-image img {
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+    }
+    .overview-secondary {
+        font-size: 32px;
+    }
+    .overview-primary {
+        font-size: 32px;
+    }
+}

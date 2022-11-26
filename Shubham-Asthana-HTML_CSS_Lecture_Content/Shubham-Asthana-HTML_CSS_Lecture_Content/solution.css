@@ -1,0 +1,93 @@
+.signup-container {
+    background-color: #FF7978;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 35% 65%;
+    gap: 20px;
+    padding-left: 5rem;
+}
+.form-description {
+    font-family: Montserrat;
+    color: white;
+    align-self: center;
+}
+.description-header {
+    font-weight: bolder;
+    font-size: 32px;
+}
+.description {
+    font-size: 14px;
+    margin-top: 1rem;
+    font-family: Open Sans;
+}
+.signup-form {
+    align-self: center;
+    padding-right: 5rem;
+}
+.offer {
+    background-color: #5D55A1;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+form {
+    border: 1px solid #FF7978;
+    background-color: white;
+    border-radius: 4px;
+    padding: 20px;
+    text-align: center;
+}
+
+input {
+    width: 80%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #37CC89;
+    color: white;
+    width: 87%;
+    border-radius: 4px;
+    font-size: 15px;
+}
+input:hover {
+    border-color: #5C54A1;
+}
+
+.condition .condition-primary {
+    color: gray;
+    font-size: 13px;
+    margin-right: 5px;
+}
+.condition .condition-secondary {
+    font-size: 13px;
+    color: #FF7978;
+}
+
+@media only screen and (max-width: 600px) {
+    .signup-container {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        justify-content: center;
+        padding: 0;
+        margin: auto;
+    }
+    /* .form-description {
+        margin-top: 5rem;
+    } */
+    
+    .description-header {
+        font-size: 28px;
+    }
+    .signup-form {
+        padding: 0;
+    }
+    
+}
